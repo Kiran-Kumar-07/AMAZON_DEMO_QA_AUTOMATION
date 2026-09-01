@@ -1,0 +1,11 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+proof/*.png
+reports/*.xlsx
+reports/execution.log
+!proof/.gitkeep
+!reports/.gitkeep
+.env

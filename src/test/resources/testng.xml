@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EcommerceCartAutomationSuite" parallel="false" verbose="1">
+
+    <listeners>
+        <listener class-name="com.ecommerce.automation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="ShoppingCartE2E">
+        <classes>
+            <class name="com.ecommerce.automation.tests.ShoppingCartE2ETest"/>
+        </classes>
+    </test>
+
+    <test name="NegativeScenarios">
+        <classes>
+            <class name="com.ecommerce.automation.tests.NegativeScenariosTest"/>
+        </classes>
+    </test>
+
+</suite>
